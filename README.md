@@ -1,5 +1,5 @@
 1.```powershell
-    git clone https://github.com/armanulalam/multilabel_dataset_classifier.git
+    git clone https://github.com/armanulalam/QA-Retriever-Multi-Agent.git
     ```
 2.```powershell
     python -m venv crew

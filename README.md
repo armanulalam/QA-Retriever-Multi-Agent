@@ -1,13 +1,13 @@
-1.```powershell
+1.```
     git clone https://github.com/armanulalam/QA-Retriever-Multi-Agent.git
     ```
-2.```powershell
+2.```
     python -m venv crew
     ```
-3.```powershell
+3.```
     pip install -r requirements.txt
     ```
-4.```powershell
+4.```
     python main.py
     ```
 

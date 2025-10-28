@@ -23,5 +23,3 @@ The framework I used for developin the agent is CrewAI and for searching purpose
     ``` bash
     python main.py
     ```
-
-

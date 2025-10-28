@@ -1,47 +1,8 @@
 # QA Retriever with Citation Multi Agent
 
 This is a Question Answer Retriever with Citation Multi Agent. The workflow of the agent is given below:
-+----------------------------------------------+
-|                  User Query                  |
-+------------------------+---------------------+
-                         |
-                         v
-+----------------------------------------------+
-|        Supervisor/Coordinator Agent          |
-|   (Orchestrates and delegates tasks)         |
-+------------------------+---------------------+
-                         |
-    +--------------------+--------------------+
-    |                                         |
-    v                                         v
-+---------+                           +----------------+
-|Retriever|                           | Summarizer     |
-|  Agent  |                           |  Agent         |
-| (Fetches|                           | (Condenses     |
-| relevant|                           |  retrieved     |
-| chunks) |                           |  text)         |
-+---------+                           +----------------+
-    |                                         |
-    +--------------------+--------------------+
-                         |
-                         v
-                +-------------------+
-                |    QA Agent       |
-                | (Answers based on |
-                |  summarized text) |
-                +-------------------+
-                         |
-                         v
-                +-------------------+
-                | Citation Agent    |
-                | (Adds citations)  |
-                +-------------------+
-                         |
-                         v
-+----------------------------------------------+
-|           Final Answer with Summary          |
-|             and Citations                    |
-+----------------------------------------------+
+<img width="492" height="766" alt="image" src="https://github.com/user-attachments/assets/2f0eae62-3e94-4a4a-b9ea-7dba1adb3efb" />
+
 
 The framework I used for developin the agent is CrewAI and for searching purpose I used Serper API.
 

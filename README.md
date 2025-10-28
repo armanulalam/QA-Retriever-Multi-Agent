@@ -13,7 +13,7 @@ The framework I used for developin the agent is CrewAI and for searching purpose
     ```
 2.Create a virtual environment
     ``` bash
-    python -m venv crew
+    conda create -n crew python=3.10 -y
     ```
 3.Install the requirements
     ``` bash

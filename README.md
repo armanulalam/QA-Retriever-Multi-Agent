@@ -7,16 +7,20 @@ This is a Question Answer Retriever with Citation Multi Agent. The workflow of t
 The framework I used for developin the agent is CrewAI and for searching purpose I used Serper API.
 
 # Get Started
-1.``` bash
+1. Clone the repository
+    ``` bash
     git clone https://github.com/armanulalam/QA-Retriever-Multi-Agent.git
     ```
-2.``` bash
+2.Create a virtual environment
+    ``` bash
     python -m venv crew
     ```
-3.``` bash
+3.Install the requirements
+    ``` bash
     pip install -r requirements.txt
     ```
-4.``` bash
+4.Run the `main.py` file
+    ``` bash
     python main.py
     ```
 

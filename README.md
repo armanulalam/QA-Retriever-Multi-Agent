@@ -13,16 +13,16 @@ The framework I used for developin the agent is CrewAI and for searching purpose
     ```
     
 2.Create a virtual environment
-    ```bash
+    ```powershell
     conda create -n crew python=3.10 -y
     ```
     
 3.Install the requirements
-    ```bash
+    ```powershell
     pip install -r requirements.txt
     ```
     
 4.Run the `main.py` file
-    ```bash
+    ```powershell
     python main.py
     ```
